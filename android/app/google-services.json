@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "488297750810",
+    "project_id": "fb-sfu",
+    "storage_bucket": "fb-sfu.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:488297750810:android:873dfee00b3f601ccd8ca3",
+        "android_client_info": {
+          "package_name": "com.sfu.project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "488297750810-c5tbl0a1qjf64lmd96too0giln3077qj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoxKZ8sSg2kWvaPjpCV6tnRyMuwwUiKA4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "488297750810-c5tbl0a1qjf64lmd96too0giln3077qj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

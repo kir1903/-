@@ -20,8 +20,7 @@ void main() async {
     theme: ThemeData(primaryColor: Colors.deepOrangeAccent),
     initialRoute: '/',
     routes: {
-      '/': (context) => Main(),
-      '/Main': (context) => Home(),
+      '/': (context) => Home(),
     },
   ));
 }

@@ -4,13 +4,17 @@ import 'package:project/navigation/searching.dart';
 
 
 class Main extends StatefulWidget {
-  const Main({Key? key}) : super(key: key);
+  final String group;
+  const Main({
+    Key? key, required this.group,
+  }) : super(key: key);
 
   @override
   State<Main> createState() => _MainState();
 }
 
 class _MainState extends State<Main> {
+
 
   int sectionindex = 0;
 
@@ -23,7 +27,7 @@ class _MainState extends State<Main> {
         centerTitle: true,
         backgroundColor: Colors.deepOrange,
       ),
-      body: sectionindex == 0 ? Maintable() : Search(),
+      body: sectionindex == 0 ? Maintable(group: widget.group,) : Search(group: widget.group,),
       bottomNavigationBar:  BottomNavigationBar(
         items: const <BottomNavigationBarItem>[
           BottomNavigationBarItem(
